@@ -1,7 +1,6 @@
 $(document).ready(function() {
 
-	$('.category').click(function() {
-		if (this).
-		$('.info-card').show();
+	$('.check-circle').click(function() {
+		$(this).css('background-color', 'darkseagreen');
 	});
 });
