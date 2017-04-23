@@ -2,42 +2,56 @@ body {
 	margin: 0;
 }
 
+#container {
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
 #heading-container {
 	height: 300px;
 	position: relative;
-	background-color: green;
+	
 }
 
 .heading-info {
-	color: white;
-	text-align: center;
-	left: calc((100% - 720px) / 2);
+	color: black;
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
+	left: calc((100% - 400px) / 2);
+	text-align: center;
 }
 
 #heading-title {
-	font-size: 60px;
+	font-size: 130px;
 	font-weight: bold;
 	top: 33%;
-	margin-bottom: 20px;
-	font-family: 'Cinzel';
+	margin-bottom: 40px;
+	font-family: 'Raleway', serif;
 }
 
 #heading-description {
-	font-size: medium;
+	font-size: large;
 	font-weight: normal;
 	top: 66%;
 	font-family: 'Raleway', sans-serif;
 }
 
-#content {
-	background-color: white;
-	margin: 0 50px;
+.divider {
+	width: 90%;
+	height: 7px;
+	margin: 0 auto;
+	background-color: yellow;
+	border-style: double;
+	border-color: #d3d3d3;
 }
 
-#question {
+#content {
+	background-color: white;
+	margin: 20px 50px;
+}
+
+.question {
 	text-align: center;
 	padding: 20px;
 	font-family: 'Raleway';
