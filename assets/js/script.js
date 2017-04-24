@@ -17,13 +17,23 @@ $(document).ready(function() {
 		}
 	});
 
-	$('.arrow-circle').click(function() {
+	$('#section-1.arrow-circle').click(function() {
 		if ($(this).hasClass('rotated')) {
 			$(this).removeClass('rotated');
-			$('html, body').animate({ scrollTop: 250 }, 2000);
+			$('html, body').animate({ scrollTop: 250 }, 1500);
 		} else {
 			$(this).addClass('rotated');
-			$('html, body').animate({ scrollTop: 750 }, 2000);
+			$('html, body').animate({ scrollTop: 750 }, 1500);
+		}
+	});
+
+	$('#section-2.arrow-circle').click(function() {
+		if ($(this).hasClass('rotated')) {
+			$(this).removeClass('rotated');
+			$('html, body').animate({ scrollTop: 870 }, 1500);
+		} else {
+			$(this).addClass('rotated');
+			$('html, body').animate({ scrollTop: 1500 }, 1500);
 		}
 	});
 
