@@ -2,7 +2,7 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
-	<link href="https://fonts.googleapis.com/css?family=Playfair+Display|Roboto|Raleway" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Open+Sans|Roboto|Raleway" rel="stylesheet">
 	<script src="assets/jquery-1.9.1.js"></script>
 	<script src="assets/js/script.js"></script>
 	<title>What Are They Saying?</title>
@@ -11,30 +11,40 @@
 	<div id = "container">
 		<div id = "heading-container">
 			<div class = "heading-info">
-				<div id = "heading-title">What?</div>
+				<div id = "heading-title"><i>What Are They Saying?</i></div>
 				<div id = "heading-description">
 					A website for those who just want to understand...
 				</div>
 			</div>
 		</div>
-		<div class = "section-divider"></div>
-		<div id = "content">
-
-			<div class = "question">Do you feel like you don't understand this <strong><i>generation</i></strong>?</div>
-			<div class = "check-circle"></div>
+		<div id = "application">
+			<div id = "application-title"><u>Step 1: Age Test</u></div>
+			<div class = "question-container">
+				<div class = "check-circle"></div>
+				<div class = "question">Do you feel like you don't understand this <strong><i>generation</i></strong>?</div>
+			</div>
 			<div class = "sub-divider"></div>
 
-			<div class = "question">Do you feel like technology is another <strong><i>language</i></strong>?</div>
-			<div class = "check-circle"></div>
+			<div class = "question-container">
+				<div class = "check-circle"></div>
+				<div class = "question">Do you feel like technology is another <strong><i>language</i></strong>?</div>
+			</div>
 			<div class = "sub-divider"></div>
 
-			<div class = "question">Do you feel left <strong><i>behind</i></strong>?</div>
-			<div class = "check-circle"></div>
+			<div class = "question-container">
+				<div class = "check-circle"></div>
+				<div class = "question">Do you feel left <strong><i>behind</i></strong>?</div>
+			</div>
 			<div class = "sub-divider"></div>
 
-			<div class = "question"><strong>Perfect!</strong> Let's begin!</div>
-			<div class = "arrow-circle"></div>
-	</div>
+			<div id = "end-of-application">Hm, it seems to me you're young enough!</div>
+		</div>
+
+		<div class = "arrow-circle">
+			<img src = "assets/img/arrow-down.png" class = "scaled">
+		</div>
+
+		<div id = "card-section"></div>
 	</div>
 </body>
 </html>

@@ -1,16 +1,19 @@
 body {
 	margin: 0;
+	background: url('../img/desk.jpg');
+	background-size: 100% 100%;
+	background-repeat: repeat;
 }
 
 #container {
-	margin-left: 15%;
-	margin-right: 15%;
+	margin-left: 10%;
+	margin-right: 10%;
 }
 
 #heading-container {
 	height: 300px;
 	position: relative;
-	
+	text-align: center;
 }
 
 .heading-info {
@@ -18,23 +21,20 @@ body {
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
-	left: calc((100% - 400px) / 2);
-	text-align: center;
 }
 
 #heading-title {
-	font-size: 130px;
-	font-weight: bold;
+	font-size: 70px;
 	top: 33%;
-	margin-bottom: 40px;
-	font-family: 'Raleway', serif;
+	margin-bottom: 30px;
+	font-family: 'Permanent Marker', serif;
 }
 
 #heading-description {
-	font-size: large;
+	font-size: 22px;
 	font-weight: normal;
 	top: 66%;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Permanent Marker', serif;
 }
 
 .section-divider {
@@ -47,37 +47,81 @@ body {
 }
 
 .sub-divider {
-	width: 90%;
-	height: 2px;
-	margin: 0 auto;
-	margin-top: 30px;
-	background-color: gray;
+	width: 100%;
+	margin: 20px auto;
+	border-color: gray;
+	border-top-style: dotted;
 }
 
-#content {
+#application {
 	background-color: white;
-	margin: 20px 50px;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+	margin: 20px 30px;
+	font-family: 'Raleway';
+	position: relative;
+	padding: 30px;
 }
 
-.question {
+#application-title {
 	text-align: center;
-	padding: 20px;
-	font-family: 'Raleway';
-	font-size: x-large;
+	font-size: 40px;
+	margin-bottom: 30px;
+}
+
+.question-container {
+	left: 30px;
+	vertical-align: middle;
+	font-size: 22px;
 }
 
 .check-circle {
-	width: 60px;
-	height: 60px;
-	margin: 10px auto;
-	margin-bottom: 15px;
-	border-radius: 50%;
+	width: 20px;
+	height: 20px;
+	border-radius: 5px;
 	border-style: solid;
 	transition: 0.5s;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.question {
+	display: inline-block;
+	transform: translateY(-20%);
 }
 
 .check-circle:hover {
 	background-color: yellow;
+}
+
+#end-of-application {
+	text-align: center;
+	margin-top: 30px;
+	font-size: 30px;
+}
+
+.arrow-circle {
+	width: 70px;
+	height: 70px;
+	border-radius: 60px;
+	border-style: solid;
+	transition: 0.5s;
+	margin: 40px auto;
+}
+
+.arrow-circle:hover {
+	background-color: darkseagreen;
+}
+
+.rotated {
+	transform: rotate(180deg);
+}
+
+.scaled {
+	width: 100%;
+}
+
+#card-section {
+	height: 1000px;
 }
 
 .info-card {
