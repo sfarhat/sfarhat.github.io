@@ -1,8 +1,7 @@
 body {
 	margin: 0;
 	background: url('../img/desk.jpg');
-	background-size: 100% 100%;
-	background-repeat: repeat;
+	background-size: 100% 25%;
 }
 
 #container {
@@ -21,12 +20,17 @@ body {
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
+	left: calc((100% - 557px) / 2);
+	background-color: yellow;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+	padding: 15px;
+	padding-bottom: 20px;
 }
 
 #heading-title {
 	font-size: 70px;
 	top: 33%;
-	margin-bottom: 30px;
+	margin-bottom: 10px;
 	font-family: 'Permanent Marker', serif;
 }
 
@@ -90,6 +94,7 @@ body {
 }
 
 .check-circle:hover {
+	cursor: pointer;
 	background-color: yellow;
 }
 
@@ -109,6 +114,7 @@ body {
 }
 
 .arrow-circle:hover {
+	cursor: pointer;
 	background-color: darkseagreen;
 }
 
@@ -139,15 +145,105 @@ body {
 	box-shadow: 0 10px 20px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0.12);
 	line-height: 150px;
 	font-family: 'Permanent Marker', serif;
-	font-size: 40px;
 }
 
 .card:hover {
-	box-shadow: 0 10px 20px rgba(0,0,0,0.25), 0 6px 6px rgba(0,0,0,0.31);
+	cursor: pointer;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.5), 0 6px 6px rgba(0,0,0,0.6);
+}
+
+.card-active {
+	position: absolute;
+	z-index: 10;
+	top: 10%;
+	left: calc((100% - 500px) / 2);
+	width: 500px;
+	height: 500px;
+}
+
+.card-container {
+	display: none;
+	position: fixed;
+	bottom: calc((100% - 380px) / 2);
+	left: calc((100% - 450px) / 2);
+	width: 450px;
+	height: 380px;
+	padding: 20px;
+	margin: 0 auto;
+	background-color: lightblue;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0.12);
+}
+
+.card-back {
+	background: white;
+	font-family: 'Permanent Marker', serif;
+	padding: 20px;
+}
+
+.card-back-title {
+	text-align: center;
+	font-size: 40px;
+}
+
+.card-back-icon {
+	width: 60px;
+	height: 60px;
+	float: right;
+	margin: -70px 15px 0 0;
+	border-style: solid;
+	border-radius: 20%;
+}
+
+.card-back-section-header {
+	font-size: 15px;
+}
+
+.card-divider {
+	width: 100%;
+	margin: 10px 0;
+	border-color: gray;
+	border-top-style: dotted;
+}
+
+.pronunciation {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.back-button {
+	text-align: center;
+	font-size: 40px;
+}
+
+.section-title {
+	text-align: center;
+	font-size: 40px;
+	font-family: 'Raleway';
+	margin-bottom: 30px;
+}
+
+.one-word {
+	font-size: 40px;
+}
+
+.two-words {
+	font-size: 30px;
 }
 
 #section-1{}
 #section-2{}
+#facebook{}
+#twitter{}
+#snapchat{}
+#instagram{}
+#tinder{}
+#tumblr{}
+#bae{}
+#meme{}
+#lit{}
+#salty{}
+#doggo{}
+#netflix-and-chill{}
 
 .info-card {
 	margin: 20px;

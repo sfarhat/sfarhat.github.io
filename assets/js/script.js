@@ -1,10 +1,5 @@
 $(document).ready(function() {
 
-	var headingWidth = $('#heading-container').width();
-	var pageWidth = $(document).width();
-	var adjusted = (pageWidth - headingWidth) / 2;
-	$('heading-container').css('left', adjusted);
-
 	var numApplicationClicked = 0;
 	$('.check-circle').click(function() {
 		$(this).css('background-color', 'darkseagreen');
@@ -35,6 +30,12 @@ $(document).ready(function() {
 			$(this).addClass('rotated');
 			$('html, body').animate({ scrollTop: 1500 }, 1500);
 		}
+	});
+
+	$('.card').click(function() {
+		var word = $(this).attr('id');
+		var card = '.card-container#' + word;
+		$(card).fadeIn('slow');
 	});
 
 });
