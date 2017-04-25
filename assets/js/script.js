@@ -35,7 +35,11 @@ $(document).ready(function() {
 	$('.card').click(function() {
 		var word = $(this).attr('id');
 		var card = '.card-container#' + word;
-		$(card).fadeIn('slow');
+		$(card).fadeIn(300);
+	});
+
+	$('.back-button').click(function() {
+		$('.card-container').fadeOut(300);
 	});
 
 });
