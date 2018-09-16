@@ -1,0 +1,25 @@
+.main-container {
+	margin: 0 auto;
+}
+
+#profile {
+     width: 230px;
+     height: 268px;
+     border-radius: 50%; 
+     background-image: url('../img/me2.png');
+     background-size: 230px 268px;
+     background-position: center;
+}
+
+#profile:hover {
+	width: 3133px;
+	height: 4699px;
+	background-image: url('../img/wink.jpg');
+	background-size: 3133px 4699px;
+	background-position: center;
+	cursor: pointer;
+}
+
+#about {
+	margin-top: 0;
+}
