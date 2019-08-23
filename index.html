@@ -1,124 +1,310 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125472127-1"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="Sean Farhat">
+	<meta name="keywords" content="Sean,Farhat,Scientist,Machine,Learning,Berkeley,San,Francisco,San Francisco,Software,Engineer,Engineering,Software Engineer,Software Engineering,Berkeley,61C,CS 61C">
+	<title>Sean Farhat | Portfolio</title>
 
-	  gtag('config', 'UA-125472127-1');
-	</script>
-	-->
-	<title>Sean Farhat</title>
-	<link rel="stylesheet" type="text/css" href="./assets/css/wing.css" />
-    <link rel="stylesheet" type="text/css" href="./assets/css/fonts.css" />
-    <link rel="stylesheet" type="text/css" href="./assets/css/styles.css" />
-    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
-    <link rel="icon" href="./assets/img/tab_icon.png">
-</head>
-<body>
-	<div class = "container">
-		<div class = "center">
-			<h1 class = "center">Sean Farhat</h1>
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="style.min.css" rel="stylesheet">
 
-			<div class="horizontal-align">
-			  <!-- <h5 class="nav-logo">Logo</h5> -->
-			  <div class = "nav-item">
-			  	<a href="#about">About</a>
-			  </div>
-			  <div class = "nav-item">
-			  	<a href="#teaching">Teaching</a>
-			  </div>
-			  <div class = "nav-item">
-			  	<a href="#research">Research</a>
-			  </div>
-			  <div class = "nav-item">
-			  	<a href="#contact">Contact</a>
-			  </div>
+    <!-- Fonts/Icons -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    
+  </head>
+  <body>
+
+    <header>
+		<!-- Navbar -->
+		<nav class="navbar navbar-absolute-dark">
+			<div class="container">
+				<a class="navbar-brand" href="index.html">
+					<h3 class="navbar-title">🐢</h3>
+				</a>
+				<ul class="nav">
+					<li class="nav-item">
+						<a class="nav-link" href="#">Portfolio</a>
+		        	</li>
+
+					<li class="nav-item">
+						<a class="nav-link" href="61c.html">CS 61C</a>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link" href="./assets/Sean_Farhat_CV.pdf">Resume</a>
+		        	</li>
+				</ul>
+
+				<button class="nav-toggle-btn">
+		            <span class="lines"></span>
+		        </button>
+			</div>
+		</nav>
+	</header>
+
+    <div class="container">
+
+    	<div class="row">
+
+    		<div class = "col-md">
+			    <!-- <div class="section-lg bg-image-gradient bg-grey"> -->
+			    	<div class="section-lg" style="position:fixed">
+						<div class="col-md-6">
+							<img src="./assets/img/me2.png" class="profile-pic" style="background-color: #f9f9f9">
+						</div>
+
+						<div class="header-text col-9">
+
+							<!-- <h6 class="heading-uppercase no-bottom">The portfolio of</h6> -->
+
+							<h1><span class="babyblue-text">Sean Farhat</span></h1>
+
+							<p><i class="fas fa-graduation-cap icon-20"></i> B.S. EECS @ <b><a href="https://www.berkeley.edu" class="link-underline babyblue-text" target="_blank">UC Berkeley</a></b></p>
+
+							<p><i class="fas fa-chalkboard-teacher teaching-icon icon-20"></i> Student Instructor @ <b><a href="https://cs61c.org/" class="link-underline babyblue-text" target="_blank">CS 61C</a></b></p>
+
+							<p><i class="fas fa-briefcase icon-20"> </i> Research @ <b><a href="https://www.accenture.com/us-en/services/accenture-labs/systems-platforms" class="link-underline babyblue-text" target="_blank">Accenture Labs</a></b></p>
+
+							<!-- <p><i class="fas fa-flask icon-20 science-icon"></i>Computer Vision Research @ <b><a href="https://rise.cs.berkeley.edu/" class="link-underline babyblue-text">RISELab</a></b></p> -->
+
+							<!-- <br> -->
+
+							<!-- <p><i class="fas fa-map-marker-alt icon-20"></i>Berkeley / San Francisco, CA</p> -->
+
+							<p><i class="fas fa-envelope icon-20 email-icon"></i><a href="mailto:sfarhat@berkeley.edu" class="babyblue-text" target="_blank">sfarhat@berkeley.edu</a></p>
+
+							<p><i class="fas fa-file icon-20 "></i><a href="./assets/Sean_Farhat_CV.pdf" class="babyblue-text"target="_blank">Resume</a></p>
+
+						</div>
+
+					</div>
+
+			</div>
+
+    		<div class = "col-md-9 col-md-offset-3">
+
+				<div class="section-sm border-y ">
+					<div class="container">
+						<div class="row">
+							<div class="no-bottom col-12 col-3">
+								<h3>About Me</h3>
+							</div>
+							<div class="col-12 col-md">
+								<p>I'm Sean, an undergraduate <a href="#education" class="babyblue-text">student</a> at the University of California, Berkeley, studying Electrical Engineering and Computer Science. This past summer, I interned at <a href="#experience" class="babyblue-text">Accenture Labs</a> doing research on their Systems and Platform Team, focusing on robotic applications. I have also done research academically in the <a href="#experience" class="babyblue-text">SWARM Lab</a>, where my team and I worked on autonomously driving microrobots. This upcoming semester, I will be teaching CS 61C: Machine Structures, so if you're in Berkeley, feel free to stop on by one of my classes!</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Education/Skills -->
+				<div id="education"></div>
+				<div class="section border-y">
+					<div class="container">
+						<div class="row">
+							<div class="no-bottom col-12 col-3">
+								<h3>Academic</h3>
+							</div>
+							<div class="col col-md">
+								<div class="row">
+									<!-- Left column -->
+									<div class="no-bottom-small col-lg col-md col">
+										<div class="margin-bottom-10">
+											<h6 class="no-bottom font-weight-normal lineheight-25">Education</h6>
+											<h6 class="no-bottom font-weight-normal"><a href="http://berkeley.edu" class="babyblue-text lineheight-25" target="_blank">University of California, Berkeley</a></h6>
+
+											<p>B.S. in Electrical Engineering &amp; Computer Science</p>
+											<p class="no-bottom font-small text-black-06 left-indent">
+											GPA: 3.75 / 4.00<br>
+											2016 - 2020</p>
+
+											<p>Teaching</p>
+											<p class="no-bottom font-small text-black-06 left-indent"> 
+												Fall 2019: CS 61C TA (20 hr)<br>
+												Spring 2019: CS 61C TA (8 hr), CS 61B Senior Mentor<br>
+												Fall 2018: CS 61C TA (20 hr), CS 61B Senior Mentor<br>
+												Summer 2018: CS 61C TA (20 hr)<br>
+												Spring 2018: CS 61B Junior Mentor, EE 16B Tutor
+											</p>
+										</div>
+										<div class="margin-bottom-10">
+											<h6 class="no-bottom font-weight-normal lineheight-25"><a href="https://cdm.nmusd.us/" class="babyblue-text" target="_blank">Corona del Mar High School</a></h6>
+											<span class="font-small text-black-06 left-indent">2012 - 2016</span>
+										</div>
+
+										<div class="margin-bottom-30">
+											<h6 class="no-bottom font-weight-normal lineheight-25">Awards</h6>
+											<p>Outstanding GSI Award</p>
+											<p>Regents' and Chancellor's Scholarship</p>
+											<p>Tau Beta Pi</p>
+											<p>Eta Kappa Nu</p>
+										</div>
+
+									</div>
+
+									<!-- Right column -->
+									<div class="col-lg col-md col">
+										<div class="margin-bottom-30">
+											<h6 class="no-bottom font-weight-normal lineheight-25">Relevant Coursework</h6>
+											<p>Computer Science</p> 
+											<p class="no-bottom font-small text-black-06 left-indent"> 
+												Data Structures (CS 61B)<br>
+												Machine Structures (CS 61C)<br>
+												Discrete Math (CS 70)<br>
+												Computer Security (CS 161) <br>
+												Algorithms (CS 170)<br>
+												Computability &amp; Complexity (CS 172)<br>
+												Artificial Intelligence (CS 188)<br>
+												Machine Learning (CS 189)<br>
+											</p>
+											<p>Electrical Engineering</p> 
+											<p class="no-bottom font-small text-black-06 left-indent"> 
+												Linear Algebra &amp; Information Systems
+												(EE 16A/16B)<br>
+												Robotics (EECS 106A) <br>
+												Signals &amp; Systems (EE 120) <br>
+												Embedded Systems (EECS 149) <br>
+												Probability &amp; Random Processes (EECS 126)<br>
+												Optimization Models (EECS 127)<br>
+											</p>
+											<p>Miscellaneous</p>
+											<p class="no-bottom font-small text-black-06 left-indent"> 
+												Multivariable Calculus (Math 53)<br>
+												Cognitive Neuroscience (CogSci 127)<br>
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Experience -->
+				<div id = "experience"></div>
+				<div class="section border-y">
+					<div class="container">
+						<div class="row">
+							<div class="no-bottom col-12 col-3">
+								<h3>Experience</h3>
+							</div>
+							<div class="col col-md">
+								<div class="row">
+									<!-- Left column -->
+									<div class="col-lg col-md col">
+										<div class="margin-bottom-30 small-bump">
+											<h6 class="no-bottom font-weight-normal lineheight-25">Research</h6>
+											<h6 class="no-bottom font-weight-normal lineheight-25"><a href="https://swarmlab.berkeley.edu/" class="babyblue-text" target="_blank">SWARM Lab</a></h6> 
+											<p class="no-bottom">Undergraduate Researcher, Summer 2018</p>
+											<p class="font-small text-black-06 left-indent">
+												 Worked on end-to-end system for an autonomous RC car with eventual goal of transferring to microrobots. Designed self-driving pipeline that utilizes a low power Convolutional Neural Net, SqueezeDet, and computer vision algorithms to create binary masks for trajectory calculations.
+											</p>
+										</div>
+
+										<div class="margin-bottom-30">
+											<h6 class="no-bottom font-weight-normal lineheight-25">Skills</h6>
+											
+											<p>Proficient</p>
+											<p class="no-bottom font-small text-black-06 left-indent"> 
+												Python, Java, C, ROS, Gazebo, Git, RISC-V, Unity
+											</p>
+
+											<p>Familiar</p>
+											<p class="no-bottom font-small text-black-06 left-indent"> 
+												C#, C++, SQL, HTML, CSS, jQuery, Javascript, Bootstrap
+											</p>
+										</div>
+
+									</div>
+									<!-- Right column -->
+									<div class="no-bottom col-lg col-md col">
+										<div class="margin-bottom-30 small-bump">
+											<h6 class="no-bottom font-weight-normal lineheight-25">Industry</h6>
+											<h6 class="no-bottom font-weight-normal lineheight-25"><a href="https://www.accenture.com/us-en/services/accenture-labs/systems-platforms" class="babyblue-text" target="_blank">Accenture Labs</a></h6>
+											<p class="no-bottom">S &amp; P Research Intern, Summer 2019</p>
+											<p class="font-small text-black-06 left-indent">
+												 Utilized ROS, Gazebo, and Keras to architect and create a package for simulating and controlling an arm to find, inspect, and classify various parts in quality assurance settings. Investigated benefits of choosing simulation vs. real world for different steps and designed system to allow transferable training data. <span class="babyblue-text">Patent pending: A Digital Twin for Improved DevOps in Robot Applications (Lead inventor)</span>
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Projects -->
+				<div class="section border-y">
+					<div class="container">
+						<div class="row">
+							<div class="no-bottom col-12 col-3">
+								<h3>Projects</h3>
+							</div>
+							<div class="col-12 col-md-8">
+								<div class="row">
+									<!-- Left column -->
+									<!-- <div class="no-bottom-small col-lg-6 col-md-6 col-12">
+										<div class="margin-bottom-30">
+											<h6 class="no-bottom font-weight-normal lineheight-25"><a href="ofed.pdf" class="babyblue-text">Object-Focused Edge Detection [Paper]</a></h6>
+											<p class="no-bottom">Python, PyTorch</p>
+											<p class="font-small text-black-06 left-indent">A general method for altering general algorithms for edge detection in order to produce edge mappings that focus on one or few individual objects in an image.</p>
+										</div>
+
+										
+									</div> -->
+									<!-- Right column -->
+									<!-- <div class="col-lg-6 col-md-6 col-12">
+										<div class="margin-bottom-30 song-class">
+											<h6 class="no-bottom font-weight-normal lineheight-25"><a href="https://www.berkeleytime.com/" class="babyblue-text">BerkeleyTime</a></h6>
+											<p class="no-bottom">HTML, CSS, JS, Django, MySQL...</p>
+											<p class="font-small text-black-06 left-indent">BerkeleyTime is an augmented course catalog that provides data on courses, enrollment trends, grade distributions, and more. I have filled both Product Manager and Lead Engineer roles in the past.</p>
+										</div>
+									</div> -->
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			<!-- Contact -->
+			<div class="section">
+				<div class="container">
+					<div class="row">
+						<div class="no-bottom col-12 col-3">
+							<h3>Contact Me</h3>
+						</div>
+						<div class="no-bottom col-12 col-md-8">
+							<div class="row">
+								<!-- Left column -->
+								<div class="col-lg-6 col-md-6 col-12">
+									<div>
+										<p><a href="mailto:sfarhat@berkeley.edu" class="babyblue-text"><i class="fas fa-envelope icon-20 email-icon" target="_blank"></i>sfarhat@berkeley.edu</a></p>
+										<p><a href="https://www.linkedin.com/in/seanfarhat/" class="babyblue-text"><i class="fab fa-linkedin icon-20" target="_blank"></i>seanfarhat</a></p>
+										<p><a href="https://github.com/sfarhat" class="babyblue-text"><i class="fab fa-github-square icon-20" target="_blank"></i>sfarhat</a></p>
+									</p"></div>
+
+								</div>
+								<!-- Right column -->
+								<div class="col-lg-6 col-md-6 col-12">
+									<div class="margin-bottom-30">
+										ye
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
-
-		<section id = "about">
-			<h3 class = "header center">About</h3>
-			<div class = "row">
-				<div class= "col-1 vertical-align">
-					<div id = "profile"></div>
-					<!-- <img src = "./assets/img/me2.png" id = "profile"> -->
-				</div>
-				<div class = "col-2 vertical-align">
-					<div>My name is Sean Farhat and I am currently an undergraduate student
-					at the University of California, Berkeley, studying Electrical Engineering and Computer Science and planning to graduate in the spring of 2020. At the moment, I am pursing my interest in modelling phenomena by taking courses in artifical intelligence,
-					robotics, and cognitive neuroscience as well as doing research in machine learning and microrobotics. In addition,
-					I teach the introductory computer architecture course, CS 61C, as a uGSI. Below, you can find more information about the work
-					I've done as well as information on how to <a href="#contact">contact</a> me if you wish.</div>
-				</div>
-			</div>
-		</section>
-
-		<section id = "teaching">
-			<h3 class = "header center">Teaching</h3>
-			<div class = "cards">
-				<div class="card">
-				    <h5 class="card-header">CS 61B: Data Structures and Algorithms</h5>
-				    <p class="card-body">In Spring 2018, I was a Junior Mentor for the introductory data structures and algorithms course,
-				    creating content for and teaching a small group of 5 students each week. As of Fall 2018, I am a Senior Mentor, in charge of
-					training a group of 5 Junior Mentors on how to be an effective educator, in addition to my previous teaching responsibilities.</p>
-				    <div class="card-footer center text-center">
-				    	<p>Resources</p>
-		    		</div>
-		  		</div>
-
-		  		<div class="card">
-				    <h5 class="card-header">CS 61C: Great Ideas in Computer Architecture</h5>
-				    <p class="card-body">In both Summer and Fall 2018, I have been a 20 hour/week uGSI for the introductory Computer Architecture course, where I have created discussion worksheets, labs, projects, exam questions, and supplemental material for a class of 200 (summer) and 1000 (fall). In the summer, I received an average rating of 4.5/5, higher than the departmenet average.</p>
-				    <div class="card-footer center text-center">
-				    	<p>Resources</p>
-		    		</div>
-		  		</div>
-			</div>
-		</section>
-
-		<section id = "research">
-			<h3 class = "header center">Research</h3>
-			<p class = "content">
-				I currently work in the SWARM Lab under Professor Kristofer Pister and graduate student Nathan Lambert on a project investigating self-driving microrobots. As of now, before moving to the tiny scale of a robotic bug, we are working on creating an end-to-end system for an RC car. Progress so far has comprised of utilizing various computer vision algorithms like Canny Edge detection to create binary masks on an image, which, when passed into several filtering algorithms and a PID controller, will compute a desired trajectory. This solution has been partially effective, as shown below:
-			<p>
-			<div class = "center">
-				<img src = "assets/img/pid.gif" width = 50%>
-			</div>
-			<p class = "content">
-				Looking forward, we are currently working on replacing the previous filter system by investigating low power convolutional neural networks and transfer learning. Progress on the project can be found at this <a href = "https://github.com/sfarhat/donkey-car-controller/">Github repository</a>.
-			</p>
-		</section>
-
-		<section id = "contact">
-			<h3 class = "header center">Contact + Résumé</h3>
-			<div class = "row">
-				<div class= "col vertical-align center">
-					<a href = "mailto:s.farhat-sabet@berkeley.edu">
-						<img src = "assets/img/email2.png" height = 140>
-					</a>
-				</div>
-				<div class = "col vertical-align center">
-					<a href = "https://www.linkedin.com/in/seanfarhat" target="_blank">
-						<img src = "assets/img/linkedinr.png" height = 70>
-					</a>
-				</div>
-				<div class = "col vertical-align center">
-					<a href = "https://github.com/sfarhat" target="_blank">
-						<img src = "assets/img/github.png" height = 70>
-					</a>
-				</div>
-				<div class = "col vertical-align center">
-					<a href = "./assets/Sean Farhat CV.pdf" target="_blank">
-						<img src = "assets/img/resume.png" height = 90>
-					</a>
-				</div>
-		</section>
-
 	</div>
-		<!-- <button class= "outline horizontal-align">Content</button> -->
-</body>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
 </html>
